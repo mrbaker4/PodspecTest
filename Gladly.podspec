@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
     s.license           = { :type => 'Custom', :file => 'LICENSE' }
 
     s.platform          = :ios
-    s.source            = { :http => 'https://github.com/gladly/sidekick-ios-sdk/releases/download/1.3.1/GladlySidekick.framework.1.3.1.zip' }
+    s.source            = { :git => 'https://github.com/mrbaker4/PodspecTest.git' }
 
     s.ios.deployment_target = '11.0'
     s.ios.vendored_frameworks = 'GladlySidekick.framework'
